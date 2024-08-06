@@ -56,9 +56,7 @@ function App() {
   }, [handleConnection]);
 
   const setupWebSocket = (id) => {
-    const host = window.location.hostname;
-    const port = '8080';
-    const socketUrl = `ws://${host}:${port}`;
+    const socketUrl = `wss://wandering-lapis-august.glitch.me`;
     const newSocket = new WebSocket(socketUrl);
 
     newSocket.onopen = () => {
