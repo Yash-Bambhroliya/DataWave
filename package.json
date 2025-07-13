@@ -36,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "overrides": {
+    "http-proxy-middleware": "2.0.9",
+    "webpack-dev-server": "5.2.1",
+    "brace-expansion": "2.0.2"
   }
 }
