@@ -13,7 +13,7 @@ function App() {
   const [myPeerId, setMyPeerId] = useState(null);
   const [selectedPeerId, setSelectedPeerId] = useState(null);
   const [peersList, setPeersList] = useState([]);
-  const [socket, setSocket] = useState(null);
+  const [socket, setSocket] = useState(null); // eslint-disable-line no-unused-vars
   const [progress, setProgress] = useState(0);
   const [chatMessages, setChatMessages] = useState([]);
   const peerRef = useRef(null);

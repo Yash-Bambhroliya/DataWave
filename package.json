@@ -40,6 +40,8 @@
   "overrides": {
     "http-proxy-middleware": "2.0.9",
     "webpack-dev-server": "5.2.1",
-    "brace-expansion": "2.0.2"
+    "brace-expansion": "2.0.2",
+    "on-headers": "1.1.0",
+    "form-data": "3.0.4"
   }
 }
